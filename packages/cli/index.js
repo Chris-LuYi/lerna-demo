@@ -1,4 +1,5 @@
-const test = () => {
-  console.log(111);
+const fn1 = () => {
+  console.log("hello");
 };
-test();
+
+export { fn1 };
