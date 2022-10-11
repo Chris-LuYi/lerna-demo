@@ -1,0 +1,36 @@
+{
+  "name": "@chrisluyi/lerna-demo-utils",
+  "description": "A test utils package",
+  "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
+  "author": "Chris Lu Yi <chrisluyi@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-LuYi/lerna-demo"
+  },
+  "bugs": {
+    "url": "https://github.com/Chris-LuYi/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "clean": "rm dist -rf",
+    "pre-release": "npm run clean && npm run build"
+  },
+  "gitHead": "e2dbf9f5394f32c53851b89bff2c1e7d38c0cd9a",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^9.0.1",
+    "rollup": "^3.0.0"
+  }
+}

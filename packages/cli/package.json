@@ -5,15 +5,7 @@
   "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
   "license": "MIT",
-  "main": "dist/index.js",
-  "type": "module",
   "bin": "bin/index.js",
-  "directories": {
-    "dist": "dist"
-  },
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chris-LuYi/lerna-demo"
@@ -22,14 +14,10 @@
     "url": "https://github.com/Chris-LuYi/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config rollup.config.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "gitHead": "e2dbf9f5394f32c53851b89bff2c1e7d38c0cd9a",
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "rollup": "^3.0.0"
   }
 }
