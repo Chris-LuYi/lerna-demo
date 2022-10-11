@@ -1,5 +1,5 @@
 {
-  "name": "@chrisluyi-lerna-demo/cli",
+  "name": "@chrisluyi/lerna-demo-cli",
   "version": "0.0.11",
   "description": "A test CLI package",
   "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
@@ -25,7 +25,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js"
   },
-  "gitHead": "809cae441942602381c52b81ccbca381462420eb",
+  "gitHead": "e2dbf9f5394f32c53851b89bff2c1e7d38c0cd9a",
   "publishConfig": {
     "access": "public"
   },
