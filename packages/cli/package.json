@@ -10,11 +10,15 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-LuYi/lerna-demo"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js"
   },
-  "gitHead": "08c912ba299a1588fd9cb194754a616bce3a247b",
+  "gitHead": "8384b9282d4468cf9ecca0fde88f3c148f13369d",
   "publishConfig": {
     "access": "public"
   },
