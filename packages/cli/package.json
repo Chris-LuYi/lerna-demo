@@ -2,11 +2,12 @@
   "name": "cli",
   "version": "0.0.2",
   "description": "A test CLI package",
+  "author": "Chris Lu Yi <chris_lu@medinno.onmicrosoft.com>",
+  "license": "MIT",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "gitHead": "3293d459bb48a161dc3c298d02925c55d23a357f"
+  "gitHead": "d6994e3a07f226e99e172e46ddfe27c236766cd5"
 }
