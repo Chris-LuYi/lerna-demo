@@ -1,5 +1,6 @@
 {
   "name": "@chrisluyi/lerna-demo-utils",
+  "version": "0.0.1",
   "description": "A test utils package",
   "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
