@@ -1,6 +1,6 @@
 {
   "name": "@chrisluyi-lerna-demo/cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A test CLI package",
   "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
