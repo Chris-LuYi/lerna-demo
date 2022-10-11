@@ -9,5 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "8a527dfb115e3ccb756c0f7da26bf4dd7539d4b4"
+  "gitHead": "978fc206da7907ee309c729a1a601a9c18717c66",
+  "publishConfig": {
+    "access": "public"
+  }
 }
