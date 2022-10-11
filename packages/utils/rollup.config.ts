@@ -5,11 +5,11 @@ export default {
   output: [
     {
       format: "cjs",
-      file: "dist/bundle-cjs.js",
+      file: "dist/index.js",
     },
     {
       format: "es",
-      file: "dist/bundle-es.js",
+      file: "dist/index.esm.js",
     },
   ],
   plugins: [typescript({ compilerOptions: { lib: ["es5", "es6", "dom"], target: "es5" } })],

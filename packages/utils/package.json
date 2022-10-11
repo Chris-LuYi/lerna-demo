@@ -5,7 +5,8 @@
   "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
   "type": "module",
   "directories": {
     "dist": "dist"
