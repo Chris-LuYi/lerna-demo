@@ -2,6 +2,7 @@
   "name": "@chrisluyi-lerna-demo/cli",
   "version": "0.0.10",
   "description": "A test CLI package",
+  "homepage": "https://github.com/Chris-LuYi/lerna-demo#readme",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
@@ -17,11 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/Chris-LuYi/lerna-demo"
   },
+  "bugs": {
+    "url": "https://github.com/Chris-LuYi/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js"
   },
-  "gitHead": "8d0b18c624d2782246923db304a78de62b743410",
+  "gitHead": "809cae441942602381c52b81ccbca381462420eb",
   "publishConfig": {
     "access": "public"
   },
