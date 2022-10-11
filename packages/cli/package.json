@@ -7,6 +7,9 @@
   "main": "dist/index.js",
   "type": "module",
   "bin": "index.js",
+  "directories": {
+    "dist": "dist"
+  },
   "files": [
     "dist"
   ],
@@ -18,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js"
   },
-  "gitHead": "8384b9282d4468cf9ecca0fde88f3c148f13369d",
+  "gitHead": "8d0b18c624d2782246923db304a78de62b743410",
   "publishConfig": {
     "access": "public"
   },
