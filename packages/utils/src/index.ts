@@ -3,4 +3,8 @@ const fn1 = (props: string): string => {
   return props;
 };
 
+export default () => {
+  return window;
+};
+
 export { fn1 };
