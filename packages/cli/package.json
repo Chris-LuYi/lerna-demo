@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@chrisluyi-lerna-demo/cli",
   "version": "0.0.4",
   "description": "A test CLI package",
   "author": "Chris Lu Yi <chrisluyi@gmail.com>",
@@ -9,5 +9,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "3528bdaa57f4c671b8e772ddb581fc460e053b0d"
+  "gitHead": "8a527dfb115e3ccb756c0f7da26bf4dd7539d4b4"
 }
